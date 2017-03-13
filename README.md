@@ -1,15 +1,17 @@
+<div>
 # imageViewBrowser
-图片浏览/查看器#
-
-###>描述:一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,
+##图片浏览/查看器
+</div>
+<div>
+###描述:一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,
 >支持url数组,字符串链接数组,二进制数组的多功能图片查看器
-
-####
+</div>
+<div>####
 >使用方法:
 >1.将文件夹导入项目
 >2.#import "JZAlbumViewController.h"
 >3.
-><pre><code>
+<pre><code>
 #pragma mark - 查看大图
 - (void)p_btnClickCheckBigImage:(UIButton *)btn {//点击事件
     JZAlbumViewController *jzAlbumVC = [[JZAlbumViewController alloc]init];
@@ -19,12 +21,11 @@
     [self presentViewController:jzAlbumVC animated:YES completion:nil];
 }
 </code></pre>
+</div>
 
-
->
->
->
+<div>
 ###
 >改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.
 >本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!
+</div>
 
