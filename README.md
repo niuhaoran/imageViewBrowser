@@ -24,8 +24,9 @@ imageViewBrowser
 </code></pre>
 </h4>
 <hr> 
-<img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img1.jpg" width="200" height="400" alt="壁虎图标" />
 <img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img2.jpg" width="200" height="400" alt="壁虎图标" />
+<img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img1.jpg" width="200" height="400" alt="壁虎图标" />
+<img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img3.jpg" width="200" height="400" alt="壁虎图标" />
 <hr> 
 <h4>
 1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.<br>
