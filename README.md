@@ -2,14 +2,13 @@
 imageViewBrowser
 图片浏览/查看器
 </h2>
-<hr> 
 <h3>
-<span color="red">描述:</span>一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,<br>
+<span>描述:</span>一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,<br>
 支持url数组,字符串链接数组,二进制数组的多功能图片查看器<br>
 </h3>
 <hr> 
 <h4>
-使用方法:<br>
+<span1>使用方法:</span1><br>
  1.将文件夹导入项目<br>
  2.#import "JZAlbumViewController.h"<br>
  3.button点击事件<br>
@@ -30,8 +29,14 @@ imageViewBrowser
 <img src="./img2" alt="Smiley face" ><br>
 </div>
 <hr> 
-<h3>
+<h4>
 1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.<br>
 2.本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!<br>
-</h3>
+</h4>
 
+<style>
+span{
+  color:blue;  
+}
+
+</style>
