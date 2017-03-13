@@ -24,8 +24,8 @@ imageViewBrowser
 </code></pre>
 </h4>
 <hr> 
-![Alt text](/img1.jpg)<br>
-![Alt text](/img2.jpg)<br>
+<img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img1.jpg" width = "300" height = "120" alt="壁虎图标" />
+<img src="https://github.com/niuhaoran/imageViewBrowser/blob/master/img2.jpg" width = "300" height = "120" alt="壁虎图标" />
 <hr> 
 <h4>
 1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.<br>
