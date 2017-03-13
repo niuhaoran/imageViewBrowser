@@ -25,8 +25,8 @@ imageViewBrowser
 </h4>
 <hr> 
 <div>
-<img src="./img1" alt="Smiley face" ><br>
-<img src="./img2" alt="Smiley face" ><br>
+<img src="/img1.png" alt="Smiley face" width="42" height="42"><br>
+<img src="/img2.png" alt="Smiley face" width="42" height="42"><br>
 </div>
 <hr> 
 <h4>
@@ -34,9 +34,4 @@ imageViewBrowser
 2.本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!<br>
 </h4>
 
-<style>
-span{
-  color:blue;  
-}
 
-</style>
