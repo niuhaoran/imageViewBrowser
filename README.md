@@ -1,9 +1,8 @@
 # imageViewBrowser
 图片浏览/查看器#
 
-###描述:一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,
-支持url数组,字符串链接数组,二进制数组的多功能图片查看器
-###
+###>描述:一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,
+>支持url数组,字符串链接数组,二进制数组的多功能图片查看器
 
 ####
 >使用方法:
@@ -20,7 +19,7 @@
     [self presentViewController:jzAlbumVC animated:YES completion:nil];
 }
 </code></pre>
-####
+
 
 >
 >
@@ -28,4 +27,4 @@
 ###
 >改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.
 >本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!
-###
+
