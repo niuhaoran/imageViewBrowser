@@ -1,20 +1,20 @@
 <h2>
 imageViewBrowser
-图片浏览/查看器
+图片浏览/查看器(browser of images)
 </h2>
 <h3>
-<span>描述:</span>一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,<br>
+<span>描述:(Describe)</span><br>一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,<br>
 支持url数组,字符串链接数组,二进制数组的多功能图片查看器<br>
 </h3>
 <hr> 
 <h4>
-<span1>使用方法:</span1><br>
- 1.将文件夹导入项目<br>
+<span1>使用方法:(use method)</span1><br>
+ 1.将文件夹导入项目(import the files to your project)<br>
  2.#import "JZAlbumViewController.h"<br>
- 3.button点击事件<br>
+ 3.button点击事件(button click event)<br>
 <pre><code>
 #pragma mark - 查看大图<br>
-- (void)p_btnClickCheckBigImage:(UIButton *)btn {//点击事件
+- (void)p_btnClickCheckBigImage:(UIButton *)btn {//点击事件(the method of the button click event)
     JZAlbumViewController *jzAlbumVC = [[JZAlbumViewController alloc]init];
     jzAlbumVC.currentIndex = btn.tag; //当前点击图片的索引
     //webImageUrl可以为url数组, 可以为urlString 数组, 可以为二进制 UIImage 数组
