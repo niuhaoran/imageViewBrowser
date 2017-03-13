@@ -24,10 +24,8 @@ imageViewBrowser
 </code></pre>
 </h4>
 <hr> 
-<div>
 ![Alt text](/img1.jpg)<br>
 ![Alt text](/img2.jpg)<br>
-</div>
 <hr> 
 <h4>
 1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.<br>
