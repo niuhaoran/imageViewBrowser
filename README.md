@@ -1,18 +1,20 @@
-<h1>
+<h2>
 imageViewBrowser
 图片浏览/查看器
-</h1>
-<h2>
-描述:一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,
-支持url数组,字符串链接数组,二进制数组的多功能图片查看器
 </h2>
+<hr> 
 <h3>
-使用方法:
- 1.将文件夹导入项目
- 2.#import "JZAlbumViewController.h"
- 3.button点击事件
+<span color="red">描述:</span>一种图片浏览器,支持查看大图,缩放,SD_WebImage下载,进度条,长按保存到相册,<br>
+支持url数组,字符串链接数组,二进制数组的多功能图片查看器<br>
+</h3>
+<hr> 
+<h4>
+使用方法:<br>
+ 1.将文件夹导入项目<br>
+ 2.#import "JZAlbumViewController.h"<br>
+ 3.button点击事件<br>
 <pre><code>
-#pragma mark - 查看大图
+#pragma mark - 查看大图<br>
 - (void)p_btnClickCheckBigImage:(UIButton *)btn {//点击事件
     JZAlbumViewController *jzAlbumVC = [[JZAlbumViewController alloc]init];
     jzAlbumVC.currentIndex = btn.tag; //当前点击图片的索引
@@ -21,13 +23,15 @@ imageViewBrowser
     [self presentViewController:jzAlbumVC animated:YES completion:nil];
 }
 </code></pre>
-</h3>
+</h4>
+<hr> 
 <div>
-<img src="img1" alt="Smiley face" >
-<img src="img2" alt="Smiley face" >
+<img src="./img1" alt="Smiley face" ><br>
+<img src="./img2" alt="Smiley face" ><br>
 </div>
-<h2>
-1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.
-2.本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!
-</h2>
+<hr> 
+<h3>
+1.改写自//jinzelu  Copyright (c) 2015年 jinzelu. All rights reserved.<br>
+2.本人增加了图片保存到相册,支持UIImage数据,修改了偶尔crash的 bug!<br>
+</h3>
 
