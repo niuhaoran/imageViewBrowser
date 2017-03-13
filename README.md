@@ -25,8 +25,8 @@ imageViewBrowser
 </h4>
 <hr> 
 <div>
-<img src="/img1.png" alt="Smiley face" width="42" height="42"><br>
-<img src="/img2.png" alt="Smiley face" width="42" height="42"><br>
+![Alt text](/img1.png)<br>
+![Alt text](/img2.png)<br>
 </div>
 <hr> 
 <h4>
