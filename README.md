@@ -25,8 +25,8 @@ imageViewBrowser
 </h4>
 <hr> 
 <div>
-![Alt text](/img1.png)<br>
-![Alt text](/img2.png)<br>
+![Alt text](/img1.jpg)<br>
+![Alt text](/img2.jpg)<br>
 </div>
 <hr> 
 <h4>
