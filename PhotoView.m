@@ -105,6 +105,10 @@
         UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
         UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap:)];
         
+        //长按手势
+        UILongPressGestureRecognizer *longTap = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(imglongTapClick)];
+        [self.imageView addGestureRecognizer:longTap];
+        
         singleTap.numberOfTapsRequired = 1;
         singleTap.numberOfTouchesRequired = 1;
         doubleTap.numberOfTapsRequired = 2;//需要点两下
